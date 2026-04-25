@@ -1,0 +1,31 @@
+{
+  "name": "crudserver",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/usman684/crudserver#readme",
+  "bugs": {
+    "url": "https://github.com/usman684/crudserver/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usman684/crudserver.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.5.0",
+    "nodemon": "^3.1.14"
+  }
+}
